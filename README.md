@@ -1,1 +1,3 @@
 # anssipiirainen.com
+
+> hugo serve
