@@ -1,5 +1,14 @@
 <article class="summary">
     <h2 class="summary__title">{{.Title}}</h2>
+
+    <div class="meta">
+        <time datetime="{{ .Page.PublishDate.Format "2006-01-02T15:04:05" | safeHTMLAttr }}">
+            {{ $months := index .Site.Data (i18n "months") }}
+            {{ $month := index $months (printf "%d" .Page.PublishDate.Month) }}
+            {{ i18n "published" (dict "Day" .Page.PublishDate.Day "Month" $month "Year" .Page.PublishDate.Year) }}
+        </time>
+    </div>
+
     {{ with .Params.Image.Src }}
         <amp-img class="summary__image"
             src="{{ . }}"
@@ -9,8 +18,12 @@
             alt="{{ $.Title }}"></amp-img>
     {{ end }}
     <p>{{.Summary}}</p>
-    <a class="button" role="button"
+
+    <p class="more">
+        <a class="button meta" role="button"
         href="{{.Permalink}}"
         data-rel="prefetch"
         aria-label="{{ i18n "keepReading" }} {{.Title}}">{{ i18n "keepReading" }}</a>
+    </p>
+
 </article>
