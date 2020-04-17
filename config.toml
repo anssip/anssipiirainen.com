@@ -19,14 +19,8 @@ paginate = 10
         languageName = "English"
         languageCode = "en"
         title = "Anssi Piirainen"
-        description = "Porsonal blog"
+        description = "Porsonal blog b"
         weight = 1
-
-# Menu elements
-[[menu.main]]
-    identifier = "site-title"
-    name = "anssipiirainen.com"
-    weight = 9
 
 # Enable only tags taxonomy
 [taxonomies]

@@ -461,3 +461,14 @@ h2 {
 .header__menu__logo {
 	margin-left: .5em;
 }
+
+#dotcom:before {
+	content: "anssipiirainen";
+}	
+@media (max-width: 400px) { 
+	#dotcom:before {
+			content: "anssi piirainen";
+	}
+}	
+
+

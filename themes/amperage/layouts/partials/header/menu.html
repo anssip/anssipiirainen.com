@@ -1,4 +1,7 @@
 <ul class="header__menu__list">
+    <li class="sitename">
+        <span id="dotcom">.com</span>
+    </li>
     {{ range .Site.Menus.main }}
         {{ $url := trim .URL "/" | absURL }}
         <li>
