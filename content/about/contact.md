@@ -17,10 +17,6 @@ keywords = ["contact"]
 [amp]
     elements = []
 
-[author]
-    name = ""
-    homepage = ""
-
 [image]
     src = ""
 
