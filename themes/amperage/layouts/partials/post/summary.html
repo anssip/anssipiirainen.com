@@ -1,5 +1,7 @@
 <article class="summary">
-    <h2 class="summary__title">{{.Title}}</h2>
+    <a href="{{.Permalink}}" data-rel="prefetch">
+        <h2 class="summary__title">{{.Title}}</h2>
+    </a>
 
     <div class="meta">
         <time datetime="{{ .Page.PublishDate.Format "2006-01-02T15:04:05" | safeHTMLAttr }}">

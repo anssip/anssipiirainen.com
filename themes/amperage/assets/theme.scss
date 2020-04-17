@@ -17,6 +17,7 @@ body {
 
 .header, .main, .footer {
 	grid-column: 4 / span 6;
+	margin-top: 3em;
 }
 
 .header {
@@ -99,14 +100,6 @@ a {
 }
 
 .button {
-	// padding: .5em .75em;
-	// font-size: .8em;
-	// font-family: "Roboto Mono", "Helvetica Neue", "Arial", "sans-serif";
-	// text-transform: uppercase;
-	// font-style: italic;
-	// text-align: center;
-	// border: 1px solid black;
-	// box-shadow: 7px 7px 0 0 #333;
 	color: #ddd;
 	border-color: #999;
 	border-width: 0 0 1px 0;
@@ -234,7 +227,8 @@ blockquote {
 }
 
 #tags {
-	margin: 0;
+	margin-top: 5px;
+	margin-bottom: 0;
 	padding: 0;
 	li {
 		display: inline;
@@ -283,15 +277,33 @@ blockquote {
 			background-color: #F1F1F1;
 		}
 	}
-	.under-title {
+	.post-meta {
+		font-family: "Roboto Mono", "Helvetica Neue", Arial, sans-serif;
+		font-weight: 400;
+		letter-spacing: 1px;
+		text-transform: uppercase;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
-		font-size: 1rem;
+		font-size: 12px;
 		&__info,
 		&__social-share {
 			align-self: center;
 		}
+		border-top: 1px solid #C8CACA;
+		border-bottom: 1px solid #C8CACA;
+		padding: 1em 0 1em;
+		a {
+			// color: #ddd;
+			// border-color: #999;
+			border-width: 0 0 1px 0;
+			border-style: none none dotted none;
+			background-color: inherit;
+			margin-right: 0.5em;
+			&:hover {
+				color: $main-color;
+			}
+		}		
 	}
 	.ad {
 		display: flex;
@@ -335,6 +347,13 @@ blockquote {
 		}
 	}
 }
+h1, h2, h3, h4, h5 {
+	font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
 
 h2 {
 	font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
@@ -342,7 +361,7 @@ h2 {
 	-webkit-font-smoothing: antialiased;
 	color: #353535;
 	margin-bottom: 15px;
-	font-size: 25px;
+	font-size: 2rem;
 	text-decoration: none;
 }
 
@@ -382,7 +401,7 @@ h2 {
 	}
 	.main,
 	.footer {
-		margin: 1em 0.75em 0 .5em;
+		margin: 3em 0.75em 0 .5em;
 	}
 	.header {
 		margin: 0;
@@ -391,11 +410,12 @@ h2 {
 			border-bottom: 1px solid #333;
 		}
 	}
+
 	h1 {
 		font-size: 2.5rem;
 	}
 	h2 {
-		font-size: 2rem;
+		font-size: 2rem;	
 	}
 	h3 {
 		font-size: 1.66rem;
@@ -410,7 +430,7 @@ h2 {
 }
 
 @media (max-width: 600px) {
-	.under-title__social-share {
+	.social-share {
 		width: 100%;
 		margin-top: 1.5em;
 		justify-content: space-between;

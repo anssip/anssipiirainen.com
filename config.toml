@@ -19,7 +19,7 @@ paginate = 10
         languageName = "English"
         languageCode = "en"
         title = "Anssi Piirainen"
-        description = "This is an demo for the Amperage theme!"
+        description = "Porsonal blog"
         weight = 1
 
 # Menu elements
@@ -33,7 +33,7 @@ paginate = 10
     tag = "tags"
 
 [params]
-    copyright = "Amperage" # Name shown on footer copyright
+    copyright = "Anssi Piirainen" # Name shown on footer copyright
     themeColor = "#333" # Theme color displayed on mobile browsers
 
     # Default AMP components for the whole site
@@ -55,11 +55,11 @@ paginate = 10
     # Structured data elements
     socialProfiles = ["https://twitter.com/example","https://www.linkedin.com/in/example/","https://github.com/example"]
 
-    alternatePageName = "Amperage example"
+    alternatePageName = "Anssi Piirainen"
     organizationLogo = "/logo.png"
-    organizationName = "Asur"
+    organizationName = "Northern Peaks Development"
 
-    publisherName = "amperage"
+    publisherName = "anssi"
     publisherLogo = "/logo-amp-article.png"
     publisherLogoWidth = 600
     publisherLogoHeight = 60

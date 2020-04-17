@@ -1,5 +1,5 @@
-<section class="under-title">
-    <div class="under-title__info">
+<section class="under-title post-meta">
+    <div class="post-meta-info">
         <time datetime="{{ .Page.PublishDate.Format "2006-01-02T15:04:05" | safeHTMLAttr }}">
             {{ $months := index .Site.Data (i18n "months") }}
             {{ $month := index $months (printf "%d" .Page.PublishDate.Month) }}
@@ -8,16 +8,13 @@
         {{ with .Page.Params.Author.Name }} {{ i18n "by" }} {{ . }} {{ end }}
         {{ $taxonomy := "tags" }}
         <ul id="{{ $taxonomy }}">
-            <li>{{ i18n "tags" }}:</li>&nbsp;
+            <!-- <li>{{ i18n "tags" }}:</li>&nbsp; -->
             {{ range .Page.Param $taxonomy }}
-                {{ $name := . }}
-                {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy ($name | urlize)) }}
-                    <li><a href="{{ .Permalink }}" data-rel="prefetch">{{ $name }}</a></li>
-                {{ end }}
+            {{ $name := . }}
+            {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy ($name | urlize)) }}
+            <li><a role="button" href="{{ .Permalink }}" data-rel="prefetch">{{ $name }}</a></li>
+            {{ end }}
             {{ end }}
         </ul>
-    </div>
-    <div class="under-title__social-share social-share">
-        {{- partial "post/social-share.html" . -}}
     </div>
 </section>
