@@ -35,7 +35,7 @@ keywords = ["programming"]
 
 # Why you should learn Functional Programming
 
-{{% amp-image alt="My iMac" src="/images/leavingflow.jpg" width="600" height="450" %}}
+{{% amp-image alt="My iMac" src="/images/carpenting.jpg" width="600" height="450" %}}
  
 {{% post-meta %}}
 

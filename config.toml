@@ -9,6 +9,8 @@ pygmentsUseClasses = true
 
 IsMultiLingual = false
 
+enableEmoji = true
+
 # Number of posts shown per page (dafault: 10)
 paginate = 10
 
