@@ -11,7 +11,7 @@ summary = "My experience on developing with Electron.js."
 
 tags = ["electron.js", "node.js", "react.js"]
 
-keywords = ["work"]
+keywords = ["programming"]
 
 [amp]
     elements = []
