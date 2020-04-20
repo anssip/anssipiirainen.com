@@ -9,23 +9,15 @@
             {{ $month := index $months (printf "%d" .Page.PublishDate.Month) }}
             {{ i18n "published" (dict "Day" .Page.PublishDate.Day "Month" $month "Year" .Page.PublishDate.Year) }}
         </time>
+        <span class="middotDivider"></span><span>{{ .Page.ReadingTime }} min read</span>
     </div>
 
     {{ with .Params.Image.Src }}
-        <amp-img class="summary__image"
-            src="{{ . }}"
-            layout="responsive"
-            width="1280"
-            height="720"
-            alt="{{ $.Title }}"></amp-img>
+    <amp-img class="summary__image" src="{{ . }}" layout="responsive" width="1280" height="720" alt="{{ $.Title }}">
+    </amp-img>
     {{ end }}
-    <p>{{.Summary}}</p>
+    <p>{{.Summary}} <a class="button meta" role="button" href="{{.Permalink}}" data-rel="prefetch"
+            aria-label="{{ i18n "keepReading" }} {{.Title}}">{{ i18n "keepReading" }}</a></p>
 
-    <p class="more">
-        <a class="button meta" role="button"
-        href="{{.Permalink}}"
-        data-rel="prefetch"
-        aria-label="{{ i18n "keepReading" }} {{.Title}}">{{ i18n "keepReading" }}</a>
-    </p>
 
 </article>
