@@ -9,10 +9,6 @@ body {
  font-weight: 400;
  font-size: 16px;
 
-	// font-size: 1.2em;
-	// font-family: Courier New;
-	// line-height: 1.6;
-	// color: black;
 }
 
 .header, .main, .footer {
@@ -28,7 +24,7 @@ body {
 		display: flex;
 		overflow: auto;
 		justify-content: flex-start;
-		border: 1px solid #333;
+		border-bottom: 5px solid #333;
 		a {
 			font-size: 1.2em;
 			white-space: nowrap;
@@ -397,7 +393,7 @@ h2 {
 	.main,
 	.header,
 	.footer {
-		grid-column: 1 / span 12;
+		grid-column: 2 / span 10;
 	}
 	.main,
 	.footer {
@@ -407,7 +403,7 @@ h2 {
 		margin: 0;
 		&__menu {
 			border: none;
-			border-bottom: 1px solid #333;
+			border-bottom: 5px solid #333;
 		}
 	}
 
@@ -430,6 +426,12 @@ h2 {
 }
 
 @media (max-width: 600px) {
+	.main,
+	.header,
+	.footer {
+		grid-column: 1 / span 12;
+	}
+
 	.social-share {
 		width: 100%;
 		margin-top: 1.5em;
