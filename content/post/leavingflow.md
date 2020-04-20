@@ -1,7 +1,7 @@
 +++
 draft = false
-date = "2020-04-17T10:43:02+03:00"
 publishdate = "2018-07-23T10:43:02+03:00"
+date = "2018-07-23T10:43:02+03:00"
 
 title = "I'm leaving Flowplayer"
 
@@ -30,7 +30,7 @@ keywords = ["flowplayer", "work", "career"]
 
 # I'm leaving Flowplayer
 
-{{% amp-image alt="My iMac" src="/images/leavingflow.jpg" width="600" height="400" %}}
+{{% amp-image alt="My iMac" src="/images/leavingflow.jpg" width="600" height="450" %}}
  
 {{% post-meta %}}
 

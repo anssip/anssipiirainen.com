@@ -89,10 +89,14 @@ a {
 	color: inherit;
 	text-decoration:none;
 	transition: background 0.3s;
-	// border-bottom: 2px dashed #37474f;
 	&:hover {
 		border-color: $main-color;
+		color: $main-color;
 	}
+	border-color: #999;
+	border-width: 0 0 1px 0;
+	border-style: none none dotted none;
+
 }
 
 .button {
