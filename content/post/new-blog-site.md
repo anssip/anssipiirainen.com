@@ -3,11 +3,11 @@ draft = false
 date = "2020-04-20T09:40:59+03:00"
 publishdate = "2020-04-20T09:40:59+03:00"
 
-title = "New Blog"
+title = "The new anssipiirainen.com"
 
-description = "Hacked up a new blog using Hugo."
+description = "Whipped up a new blog using Hugo."
 
-summary = "Hacked up a new blog using Hugo."
+summary = "Whipped up a new blog using Hugo."
 
 tags = ["blog", "blogging", "hugo", "golang"]
 
@@ -36,22 +36,25 @@ keywords = ["blogging"]
     filename = "sitemap.xml"
 +++
 
-# New Blog
+# The new anssipiirainen.com
 
-A week ago I decided to set up a new website for this blog. Somehow I always have the urge to learn something new. Just programming with the same old tools and languages becomes boring and somehting new is needed to spice up my life.
+A week ago, I decided to set up a new website for this blog. Somehow I always have the urge to learn something new. Just programming with the same old tools and languages becomes boring, and something new is needed to spice up my life.
 
-This year I have been blogging more than ever and this is an area that I want to keep on doing also in the future. Up until this point, my blog was in Squarespace. I felt that I wanted to improve that: It should be easier for me to work on, and it should be also nicer and friendlier also for the reader. I also wanted to learn something new while building my new blogging "platform".
+This year I have been blogging a lot. Writing is an area that I want to keep on doing also in the future. Up until this point, my blog was in Squarespace. I felt that I wanted to improve my blogging workflow: It should be easier for me to work on, and the result should be better looking and friendlier for the reader. I also wanted to learn something new while building my new blogging "platform".
 
-I ended up building this using [Hugo](https://gohugo.io/). Hugo is a static site generator and provides a "hands on" feel that is great for a developer. It's much different to the experience Squarespace gives: Squarespace has a graphical UI and all posting and management is done in that web interface. With hugo, things are done using a text editor and the command line interface. It provides a more developer-friendly experience.
+I ended up building this website using [Hugo](https://gohugo.io/). Hugo is a static site generator and provides a developer-friendly "hands-on" experience for the user. It's a totally different experience than the GUI centered approach that Squarespace offers. With Hugo, everything happens in a text editor and in the command-line interface.
 
-Hugo is implemented using the Go programming language. I have some interest in learning Go which was one reason I ended up choosing Hugo.
+Hugo is implemented using the Go programming language. I am interested in learning Go, and one big reason for choosing Hugo was to get some exposure to Go.
 
 ## The result
 
-As you can see from the looks of this site, this is quite bare bones. It looks nerdy. Just like I wanted it to look like :smile:
+As you can see from the looks of this site, this is quite bare-bones. It looks nerdy. Just like I wanted it to look like :smile:
 
-I have direct access to the CSS files, exactly like it should be when you want to also improve your CSS styling skills. The page templates are also there available for improvements whenever I feel the need to work on the site layout or on additional features. I could integrate a mailing list to this site eventually, for example. The [Go page templates](https://golang.org/pkg/text/template/) seem powerful.
+I have direct access to the CSS files, which is great, because I also want to improve my styling skills. 
 
-I can write the blog posts using my favorite text editor. I write my blog posts in Markdown which is a format that Hugo directly understands. Previously I had to copy/paste all test to the Squarespace post UI and now, with Hugo, my workflow is more straightforward as the markdown file sits in Hugo's content directory all the time when I work on it.
+The page templates are there available for hacking whenever I feel the need to work on the site layout or on additional features. I could integrate a mailing list to this site eventually, for example. The [Go page templating system](https://golang.org/pkg/text/template/) seems powerful.
 
-One thing that I hope to still streamline: How to integrate Grammarly in this workflow?
+I can now write the blog posts without leaving my favorite text editor, Visual Studio Code. I write my blog posts in Markdown which is a format that Hugo directly understands. Previously I had to copy/paste all text to the post UI in Squarespace website, and now, with Hugo, my workflow is more straightforward: The markdown file sits in Hugo's content directory all the time when I work on it.
+
+I just found out that there is a Grammarly plugin for Visual Studio Code. I use Grammarly for checking the spelling grammar of my posts. The VSCode plugin seems a bit flaky at the moment, but it could be a great addition to my workflow. 
+
