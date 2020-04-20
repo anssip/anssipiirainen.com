@@ -10,7 +10,9 @@
 <meta name="description" content="{{if .IsHome}}{{ .Site.Params.Description }}{{else}}{{.Description}}{{end}}" />
 <link rel="canonical" href="{{ .Permalink }}" >
 <link rel="sitemap" href="{{ "sitemap.xml" | absURL }}" type="application/xml" />
-
+<link href="//fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+	
 {{- partial "head/og-metas.html" . -}}
 
 {{- partial "head/twitter-cards-metas.html" . -}}
