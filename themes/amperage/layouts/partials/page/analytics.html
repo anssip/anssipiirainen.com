@@ -1,6 +1,6 @@
 {{ if isset $.Site.Params "googleanalytics" }}
-  <amp-analytics type="gtag" data-credentials="include">
-    <script type="application/json">
+<amp-analytics type="googleanalytics" data-credentials="include">
+  <script type="application/json">
       {
         "vars": {
           "gtag_id": "{{ $.Site.Params.googleAnalytics }}",
@@ -16,5 +16,5 @@
         }
       }
     </script>
-  </amp-analytics>
+</amp-analytics>
 {{ end }}
