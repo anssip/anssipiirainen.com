@@ -11,7 +11,7 @@ summary = ""
 
 tags = []
 
-keywords = []
+keywords = ["career"]
 
 [amp]
     elements = []
