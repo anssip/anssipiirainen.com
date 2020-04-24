@@ -3,10 +3,7 @@
   <script type="application/json">
       {
         "vars": {
-          "gtag_id": "{{ $.Site.Params.googleAnalytics }}",
-          "config": {
-            "{{ $.Site.Params.googleAnalytics }}": { "groups": "default" }
-          }
+          "account": "{{ $.Site.Params.googleAnalytics }}"
         },
         "triggers": {
           "trackPageview": {
