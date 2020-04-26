@@ -21,7 +21,7 @@ paginate = 10
         languageName = "English"
         languageCode = "en"
         title = "Anssi Piirainen"
-        description = "Porsonal blog by Anssi Piirainen"
+        description = "Personal blog by Anssi Piirainen, a software engineering professional from Finland."
         weight = 1
 
 # Enable only tags taxonomy
