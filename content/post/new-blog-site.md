@@ -4,9 +4,7 @@ date = "2020-04-20T09:40:59+03:00"
 publishdate = "2020-04-21T09:40:59+03:00"
 
 title = "The new anssipiirainen.com"
-
 description = "Whipped up a new blog using Hugo."
-
 summary = "Whipped up a new blog using Hugo."
 
 tags = ["blog", "blogging", "hugo", "golang"]
@@ -50,20 +48,18 @@ Hugo is implemented using the Go programming language. I am interested in learni
 
 ## Deployment
 
-This blog is deployed in Amazon S3 using Hugo Deploy. It's using Cloudfront as the CDN. 
+This blog is deployed in Amazon S3 using Hugo Deploy. It's using Cloudfront as the CDN.
 
-I used a nifty trick to enable a piece of URL rewriting using *Lambda@Edge* to enable directory index documents. For example, the path of this page is `/post/new-blog-site/` and this needs to be mapped to `/post/new-blog-site/index.html` because the actual page `index.html` file recides in that path in the S3 bucket. With a quick web search, I found out that this can be achieved using a [Lambda script that is deployed and runs in all Cloudfront edge locations](https://aws.amazon.com/blogs/compute/implementing-default-directory-indexes-in-amazon-s3-backed-amazon-cloudfront-origins-using-lambdaedge/). 
-
+I used a nifty trick to enable a piece of URL rewriting using _Lambda@Edge_ to enable directory index documents. For example, the path of this page is `/post/new-blog-site/` and this needs to be mapped to `/post/new-blog-site/index.html` because the actual page `index.html` file recides in that path in the S3 bucket. With a quick web search, I found out that this can be achieved using a [Lambda script that is deployed and runs in all Cloudfront edge locations](https://aws.amazon.com/blogs/compute/implementing-default-directory-indexes-in-amazon-s3-backed-amazon-cloudfront-origins-using-lambdaedge/).
 
 ## The result
 
 As you can see from the looks of this site, this is quite bare-bones. It looks nerdy. Just like I wanted it to look like :smile:
 
-I have direct access to the CSS files, which is great, because I also want to improve my styling skills. 
+I have direct access to the CSS files, which is great, because I also want to improve my styling skills.
 
 The page templates are there available for hacking whenever I feel the need to work on the site layout or on additional features. I could integrate a mailing list to this site eventually, for example. The [Go page templating system](https://golang.org/pkg/text/template/) seems powerful.
 
 I can now write the blog posts without leaving my favorite text editor, Visual Studio Code. I write my blog posts in Markdown which is a format that Hugo directly understands. Previously I had to copy/paste all text to the post UI in Squarespace website, and now, with Hugo, my workflow is more straightforward: The markdown file sits in Hugo's content directory all the time when I work on it.
 
-I just found out that there is a Grammarly plugin for Visual Studio Code. I use Grammarly for checking the spelling grammar of my posts. The VSCode plugin seems a bit flaky at the moment, but it could be a great addition to my workflow. 
-
+I just found out that there is a Grammarly plugin for Visual Studio Code. I use Grammarly for checking the spelling grammar of my posts. The VSCode plugin seems a bit flaky at the moment, but it could be a great addition to my workflow.
