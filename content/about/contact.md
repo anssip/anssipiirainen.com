@@ -14,6 +14,8 @@ tags = ["contact"]
 
 keywords = ["contact"]
 
+url = "contact.html"
+
 [amp]
     elements = []
 
@@ -43,3 +45,7 @@ keywords = ["contact"]
 ## Anssi Piirainen
 
 * email: api@iki.fi
+* Twitter: [@anssip](https://twitter.com/anssip)
+* GitHub: [anssip](https://github.com/anssip)
+
+I'm always on the look for new opportunities and challenges. [Contact me](mailto:api@iki.fi), if you want to exchange ideas!

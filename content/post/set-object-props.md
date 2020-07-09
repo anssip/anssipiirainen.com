@@ -5,9 +5,9 @@ publishdate = "2020-07-09T10:00:32+03:00"
 
 title = "How to add object fields conditionally"
 
-description = "A neat syntax for adding fields to object conditionally without polluting the object with undefined fields."
+description = "A neat syntax for adding fields to an object conditionally without polluting it with undefined fields."
 
-summary = "This blog entry shows a clean way to add properties to a JavaScript object conditionally, without polluting the object with undefined properties. This is the simplest and cleanest way I have seen to accomplish this."
+summary = "This blog entry shows a clean way to add properties to a JavaScript object conditionally, without polluting it with undefined properties. This is the simplest and cleanest way I have seen to accomplish this."
 
 tags = ["javascript", "code", "programming"]
 keywords = [ "programming" ]
