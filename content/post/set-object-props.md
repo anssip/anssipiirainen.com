@@ -5,9 +5,9 @@ publishdate = "2020-07-09T10:00:32+03:00"
 
 title = "How to add object fields conditionally"
 
-description = "A neat syntax for adding fields to object conditionally without polluting the object with undefined fields."
+description = "A neat syntax for adding fields to an object conditionally without polluting it with undefined fields."
 
-summary = "This blog entry shows a clean way to add properties to a JavaScript object conditionally, without polluting the object with undefined properties. This is the simplest and cleanest way I have seen to accomplish this."
+summary = "This blog entry shows a clean way to add properties to a JavaScript object conditionally, without polluting it with undefined properties. This is the simplest and cleanest way I have seen to accomplish this."
 
 tags = ["javascript", "code", "programming"]
 keywords = [ "programming" ]
@@ -36,13 +36,13 @@ keywords = [ "programming" ]
 
 {{% post-meta %}}
 
-I often run into situations where I need to construct an object in JavaScript, and I want to set fields to this object conditionally. That could be an options object that I am passing as a parameter to some other function or API. I have only some of the values available, and only the ones that I have should be part of the parameter object.
+I often run into situations where I need to construct an object in JavaScript, and I want to set fields to this object conditionally. That could be an options object that I am passing as a parameter to some other function or API. I have only some of the field values available, and only those should be part of the parameter object.
 
-To describe the situation, let's take a look at an example with a straightforward syntax using if statements.
+To describe the situation, let’s take a look at an example with a straightforward syntax using if statements.
 
 {{% amp-image alt="Mutation" src="/images/object-mutation.png" width="600" height="450" %}}
 
-Here I'm mutating the object when I have option values available. [I don't like this kind of mutations](/post/fp-tricks-for-simple-code/).
+Here I’m mutating the object conditionally, setting fields for values that are available. I don’t like this kind of mutations, because they make the code hard to follow.
 
 Here is another attempt:
 
@@ -53,8 +53,7 @@ const options = {
 };
 ```
 
-This "solution" pollutes the object with fields that have `undefined` values. These fields will be present in the object, even though their values are set to `undefined`. After this, you cannot be sure what happens when you pass this object to the external library you building this object for:
-It might behave just fine, or you might get errors, or worst, it might work in some unpredictable ways.
+This “solution” pollutes the object with fields that have undefined values. These fields will be present in the object, even though their values are undefined. With this kind of an object, you cannot be sure what happens when you pass it to the external library you are building this object for: It might behave just fine, or you might get errors, or worst, it might work in some unpredictable ways.
 
 ## The Way
 
@@ -73,4 +72,5 @@ With the ES6 shorthand property syntax it looks even more clean:
 
 {{% amp-image alt="screenshot" src="/images/address-object.png" width="600" height="450" %}}
 
-I found this trick when I was looking at some code that my ex co-developer had produced, and have used it twice since I discovered it.
+I found this trick when I was looking at some code that my ex co-developer had produced, and have used it twice since I discovered it. I hope you find it useful too.
+
