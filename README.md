@@ -1,3 +1,3 @@
 # anssipiirainen.com
 
-> hugo serve
+ My blog - a Hugo website.
