@@ -2,7 +2,7 @@
 menu = "main"
 draft = false
 date = "2020-04-16T10:34:44+03:00"
-publishdate = "2020-04-16T10:34:44+03:00"
+publishdate = "2020-09-01T10:34:44+03:00"
 
 title = "Contact"
 
@@ -42,9 +42,9 @@ url = "contact.html"
     filename = "sitemap.xml"
 +++
 
-## Anssi Piirainen
+{{% amp-image alt="In lake Geneva, fall 2019" src="/images/anssi.jpg" width="337" height="450" %}}
 
-{{% amp-image alt="In lake Geneva, fall 2019" src="/images/anssi.jpg" width="337git " height="450" %}}
+## Anssi Piirainen
 
 - email: api@iki.fi
 - Twitter: [@anssip](https://twitter.com/anssip)
