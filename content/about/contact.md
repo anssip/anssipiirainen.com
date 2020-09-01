@@ -44,8 +44,10 @@ url = "contact.html"
 
 ## Anssi Piirainen
 
-* email: api@iki.fi
-* Twitter: [@anssip](https://twitter.com/anssip)
-* GitHub: [anssip](https://github.com/anssip)
+{{% amp-image alt="In lake Geneva, fall 2019" src="/images/anssi.jpg" width="350" height="450" %}}
+
+- email: api@iki.fi
+- Twitter: [@anssip](https://twitter.com/anssip)
+- GitHub: [anssip](https://github.com/anssip)
 
 I'm always on the look for new opportunities and challenges. [Contact me](mailto:api@iki.fi), if you want to exchange ideas!
