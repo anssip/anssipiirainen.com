@@ -44,7 +44,7 @@ url = "contact.html"
 
 ## Anssi Piirainen
 
-{{% amp-image alt="In lake Geneva, fall 2019" src="/images/anssi.jpg" width="337" height="450" %}}
+{{% amp-image alt="In lake Geneva, fall 2019" src="/images/anssi.jpg" width="337git " height="450" %}}
 
 - email: api@iki.fi
 - Twitter: [@anssip](https://twitter.com/anssip)
