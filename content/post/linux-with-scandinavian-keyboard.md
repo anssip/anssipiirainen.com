@@ -3,7 +3,7 @@ draft = false
 publishdate = "2020-09-01T00:00:00+02:00"
 date = "2020-09-01T00:00:00+03:00"
 
-title = "Linux with a Scandinavian (Finnish) keyboard"
+title = "How to use country-specific keyboards with Linux"
 
 description = "How I configured Linux to behave with a Finnish keyboard layout."
 
@@ -27,6 +27,8 @@ keywords = ["linux"]
     priority = 0.5
     filename = "sitemap.xml"
 +++
+
+# How to use country-specific keyboards with Linux
 
 {{% amp-image alt="Knowledge and keyboards mean power" src="/images/sergi-kabrera-keyboard.jpg" width="700" height="450" %}}
 
@@ -88,6 +90,10 @@ keyboard.send_keys("<backspace>]")
 keyboard.send_keys("~")
 
 ```
+
+The scripts shown above will make my Apple keyboard with a Finnish key layout work like expected. There could be still some missing mappings that should be there, but I have not discovered them yet. I can easily add more mappings if I find out additional needs.
+
+The mappings you will need for some other country-specific or regional layout will be different. The approach that I describe here will work for other layouts as well.
 
 I am using `autokey-qt` which is a GUI tool that I use to enter the scripts I listed above. There is also a GTK version called `autokey-gtk` available for Gnome and other GTK based environments. One script is capable of handling only one character, and therefore you will need to have a separate script for each of them. You can record a hotkey shortcut for each of the scripts. In the screenshot below, you can see my `at.py` script, which I have mapped to hotkey `<alt>+2`.
 
