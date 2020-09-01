@@ -1,7 +1,7 @@
 +++
 draft = false
-publishdate = "2020-08-31T12:00:00+02:00"
-date = "2020-08-31T08:43:02+03:00"
+publishdate = "2020-09-01T00:00:00+02:00"
+date = "2020-09-01T00:00:00+03:00"
 
 title = "Linux with a Scandinavian (Finnish) keyboard"
 
@@ -34,7 +34,7 @@ keywords = ["linux"]
 
 I recently switched to using Linux in my desktop computer that I use in my daily work. Getting the keyboard to work correctly was probably the thing that took me the longest time to get right.
 
-I am using an Apple keyboard with a Finnish key layout. I am using a Macbook as my mobile computer, and therefore I wanted to have a similar keyboard layout in this desktop computer. Switching between the two computers is more comfortable if things are not too different between these two tools that I use. Typing comes mostly from muscle memory, and typing speed suffers a lot if wrong characters start to appear on screen because of differences between the keyboard configurations.
+I am using an Apple keyboard with a Finnish key layout. I am using a Macbook as my mobile computer, and therefore I wanted to have a similar keyboard layout in this desktop computer. Switching between the two computers is more comfortable if things are not too different between these two computers that I use. Typing comes mostly from muscle memory, and typing speed suffers dramatically if inconsistency of keyboard layouts starts to cause muscle memory to fail when typing.
 
 Let's get to the dirty details on how I got things going.
 
