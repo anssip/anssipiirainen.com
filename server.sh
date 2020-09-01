@@ -1,5 +1,6 @@
-#/ bin/sh
+#! /bin/bash
 docker run --rm -it \
   -v $(pwd):/src \
+  -p 1313:1313 \
   klakegg/hugo:0.74.3 \
-  deploy --maxDeletes -1 --invalidateCDN
+  server
