@@ -4,7 +4,7 @@
 			{{ . }}
 		</figcaption>
 	{{ end }}
-	<amp-img
+	<img
 		class="figure__image {{ with .class }}{{ . }}{{ end }} {{ with .caption }}figure__image--with-caption{{ end }}"
 		{{ with .alt }}alt="{{ range (split . " ") }}{{ . }} {{ end }}"{{ end }}
 		{{ with .attribution }}attribution="{{ range (split . " ") }}{{ . }} {{ end }}"{{ end }}
@@ -12,9 +12,8 @@
 		{{ with .tabindex }}tabindex="{{ . }}"{{ end }}
 		{{ with .onTap }}on="tap:{{- . -}}"{{ end }}
 		{{ with .role }}role="{{ . }}"{{ end }}
-		{{ with .width }}width="{{ . }}"{{ end }}
-		{{ with .height }}height="{{ . }}"{{ end }}
 		{{ with .layout }}layout="{{ . }}"{{ end }}
 		{{ with .media }}media="{{ . }}"{{ end }}
-		{{ with .src }}src="{{ . | absURL}}"{{ end }}></amp-img>
+		{{ with .src }}src="{{ . | absURL}}"{{ end }}>
+	</img>
 </figure>

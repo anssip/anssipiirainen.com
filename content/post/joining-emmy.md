@@ -28,7 +28,7 @@ keywords = ["emmy", "work", "career"]
     filename = "sitemap.xml"
 +++
 
-{{% amp-image alt="Emmy logo" src="/images/emmy-logo.png" width="500" height="157" %}}
+{{% amp-image alt="Emmy logo" src="/images/emmy-logo.png" %}}
 
 # Joining Emmy Clothing Company
 
