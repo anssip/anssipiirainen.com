@@ -38,8 +38,8 @@ keywords = ["programming", "process"]
 
 Let's start with some background information and describe the "traditional" practice that I don't recommend anymore. The traditional development model looks like this:
 
-* Have two _branches_ in version control: a development branch and the main branch.
-* Have two different _environments_: one for development and one for production.
+* Have two **branches** in version control: a development branch and the main branch.
+* Have two different **environments**: one for development and one for production.
 * All development work goes first to the development branch.
 * Development branch gets deployed to the development environment.
 * Testing happens in the development environment.
@@ -50,7 +50,7 @@ Now, there is a new kid in town, in which everything happens around pull request
 
 * The team splits the work into small tasks, each of which will be deployed to production once implemented.
 * When a developer starts working on a task, he creates a new branch forking it out from main.
-* When a developer completes coding a task, she creates a new *pull request* (PR) towards main.
+* When a developer completes coding a task, she creates a new **pull request** (PR) towards main.
 * The new PR triggers the CI engine to build a new review environment and deploy the PR codebase into this new environment.
 * Another developer reviews and tests the change in the review environment.
 * Once the reviewer accepts the PR, the author of the PR merges it, which then triggers the CI to build & deploy the task's changes to production.
@@ -65,7 +65,7 @@ Review builds enable continuous and seamless delivery to production. The workflo
 
 All development work needs to be split into small tasks that can be individually released. Each task/PR should result in a change that can be pushed to production without making the product inconsistent or broken. The tasks should be small so that they can be reviewed and tested with reasonable effort. Ideally, each task should be coded in one or two days and then reviewed, fixed & refined in another one or two days. Having larger chunks as tasks is not recommended because massive changes are harder to manage and review and are more prone to break the production system. The goal is to have a continuous stream of tiny releases that happen multiple times per day.
 
-Implementing a large change-set, a so-called epic, requires completing several small tasks and PRs. Each of these PRs modifies the product in some small way, and because it usually does not make sense to reveal half-baked features, we need to delay the moment when we make these modifications visible to the end-users. One way to achieve this delayed visibility control is to build a *feature gate* into the product.
+Implementing a large change-set, a so-called epic, requires completing several small tasks and PRs. Each of these PRs modifies the product in some small way, and because it usually does not make sense to reveal half-baked features, we need to delay the moment when we make these modifications visible to the end-users. One way to achieve this delayed visibility control is to build a **feature gate** into the product.
 
 The feature gate works like this: When features are behind the feature gate, they are only visible to testers, developers and other trusted users. When we open the gate, everything that was hidden behind it become visible to all. The moment to lift the feature gate usually comes when all the PRs related to the epic become ready, and the whole epic becomes complete.
 
