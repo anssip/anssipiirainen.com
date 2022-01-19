@@ -133,3 +133,5 @@ Being a programmer is great, and your career can take many shapes and forms. You
 Just do it and enjoy the ride!
 
 {{% amp-image alt="My iMac" src="/images/anssi.jpg" width="500" height="666" %}}
+
+{{% subscribe-form %}}

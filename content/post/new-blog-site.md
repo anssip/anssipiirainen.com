@@ -63,3 +63,5 @@ The page templates are there available for hacking whenever I feel the need to w
 I can now write the blog posts without leaving my favorite text editor, Visual Studio Code. I write my blog posts in Markdown which is a format that Hugo directly understands. Previously I had to copy/paste all text to the post UI in Squarespace website, and now, with Hugo, my workflow is more straightforward: The markdown file sits in Hugo's content directory all the time when I work on it.
 
 I just found out that there is a Grammarly plugin for Visual Studio Code. I use Grammarly for checking the spelling grammar of my posts. The VSCode plugin seems a bit flaky at the moment, but it could be a great addition to my workflow.
+
+{{% subscribe-form %}}

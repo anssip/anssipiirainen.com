@@ -122,3 +122,5 @@ There are some situations where I would not use TypeScript but would go with van
 - You have experienced JavaScript developers who are using TDD and code reviews
 - Quick prototypes are quick to develop with JavaScript
 - Single-use scripts (migration scripts etc.) are an excellent fit to be done with JavaScript
+
+{{% subscribe-form %}}

@@ -519,3 +519,49 @@ article strong {
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
+
+#subscribe {
+  width: 400px;
+}
+
+fieldset {
+  border: none;
+}
+
+input {
+  padding: 1em;
+  border: 1px solid #cbd5d8;
+  border-radius: 4px;
+  width: 300px;
+}
+
+label {
+  color: #63544a;
+  display: block;
+  margin-top: 1em;
+}
+
+button[type="submit"] {
+  margin-top: 1em;
+  padding: 10px;
+  border: 1px solid rgba(202, 200, 200, 0.199);
+  background-color:#2e0edf;
+  color: white;
+  border-radius: 5px;
+  font: inherit;
+  width: 200px;
+  cursor: pointer;
+}
+
+form .actions {
+  display: flex;
+  justify-content: flex-end;
+  width: 300px;
+}
+
+.signup-title {
+  margin-top: 2em;
+  width: 300px;
+  font-size: 20px;
+  border-bottom: 1px dashed #334;
+}

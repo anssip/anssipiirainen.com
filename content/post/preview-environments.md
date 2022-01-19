@@ -85,3 +85,5 @@ Note that also automated testing can happen as part of the PR builds. The best p
 
 Many cloud hosting platforms like Heroku and Vercel offer PR based review builds and deployments out-of-the-box. Heroku calls them review apps and Vercel calls them preview environments.
 It is also reasonably straightforward to implement them using Github Actions. I recently enabled them for one React app using [AWS CDK](https://aws.amazon.com/cdk/) to deploy the app to S3 and Cloudfront. Julien Goux does a good job documenting this approach in [this dev.to article](https://dev.to/jgoux/preview-environments-per-pull-request-using-aws-cdk-and-github-actions-bfi).
+
+{{% subscribe-form %}}

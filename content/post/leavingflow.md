@@ -51,3 +51,5 @@ What is the real reason that pushed me to resign? Here is a list:
 My opinion is that if you start questioning whether you should move forward, it's time to move forward. Change can be difficult, but it's a way to grow as a professional and as a person. I've changed jobs several times in my life, and every change has been for the better. 
 
 I've decided to continue as a freelance developer, and see where it takes me. I've already started planning my next steps in this space and will post updates here in my blog about this. Having an online presence is essential for a freelance worker, and I'm planning to post more about work-related topics in the future.
+
+{{% subscribe-form %}}

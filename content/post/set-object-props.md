@@ -74,3 +74,4 @@ With the ES6 shorthand property syntax it looks even more clean:
 
 I found this trick when I was looking at some code that my ex co-developer had produced, and have used it twice since I discovered it. I hope you find it useful too.
 
+{{% subscribe-form %}}

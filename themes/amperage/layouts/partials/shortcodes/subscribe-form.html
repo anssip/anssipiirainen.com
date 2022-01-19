@@ -1,0 +1,31 @@
+{{ with .title }}
+<p class="signup-title">
+  {{ . }}
+</p>
+{{ end }}
+
+<form id="subscribe" action="https://contact-api-af55rh7a3q-uc.a.run.app/contacts" method="POST">
+  <fieldset>
+    <p>
+      <label for="name">
+        First name
+      </label>
+      <input placeholder="example: John" type="text" name="firstName" id="firstName" required />
+    </p>
+    <p>
+      <label for="lastName">
+        Last name
+      </label>
+      <input placeholder="example: Doe" type="text" name="lastName" id="lastName" required />
+    </p>
+    <p>
+      <label for="email">
+        Email
+      </label>
+      <input placeholder="your email address" type="text" name="email" id="email" required />
+    </p>
+    <div class="actions">
+      <button type="submit">Join mailing list</button>
+    </div>
+  </fieldset>
+</form>

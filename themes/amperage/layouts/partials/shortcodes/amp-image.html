@@ -14,6 +14,9 @@
 		{{ with .role }}role="{{ . }}"{{ end }}
 		{{ with .layout }}layout="{{ . }}"{{ end }}
 		{{ with .media }}media="{{ . }}"{{ end }}
-		{{ with .src }}src="{{ . | absURL}}"{{ end }}>
+		{{ with .src }}src="{{ . | absURL}}"{{ end }}
+		{{ with .width }}width="{{ . }}"{{ end }}
+		{{ with .height }}height="{{ . }}"{{ end }}
+		>
 	</img>
 </figure>

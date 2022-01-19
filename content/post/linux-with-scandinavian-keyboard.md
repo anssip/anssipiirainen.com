@@ -107,3 +107,5 @@ As you can see, the script sends two different keys in sequence:
 ## Make Autokey start when KDE starts
 
 To finish the setup, we need to have Autokey starting automatically. To do so, I went to System Preferences / Autostart, and added `/usr/local/bin/autokey-qt` as a program that gets started automatically when the KDE desktop starts.
+
+{{% subscribe-form %}}

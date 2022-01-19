@@ -230,3 +230,5 @@ Functional Programming is all about functions. It's better to write many small f
 With the tricks I have shown here, your code can be more compact. That is an important goal and an excellent reason to learn these tricks, and more importantly, to learn functional programming.
 
 There are more tricks and strategies like this. Let me know if you would like me to write a post about the other strategies!
+
+{{% subscribe-form %}}

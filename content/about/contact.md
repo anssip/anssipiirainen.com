@@ -42,7 +42,7 @@ url = "contact.html"
     filename = "sitemap.xml"
 +++
 
-{{% amp-image alt="In lake Geneva, fall 2019" src="/images/anssi.jpg" width="337" height="450" %}}
+{{% amp-image alt="In lake Geneva, fall 2019" src="/images/anssi.jpg" width="224" height="300" %}}
 
 ## Anssi Piirainen
 
@@ -51,3 +51,9 @@ url = "contact.html"
 - GitHub: [anssip](https://github.com/anssip)
 
 I'm always on the look for new opportunities and challenges. [Contact me](mailto:api@iki.fi), if you want to exchange ideas!
+
+<p class="signup-title">
+ Join my mailing list to get notified when I post new articles
+</p>
+
+{{% subscribe-form-2  %}}

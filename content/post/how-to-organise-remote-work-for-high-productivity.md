@@ -124,3 +124,5 @@ To succeed with distributed teams, the top things to prioritise are:
 3. Provide timely feedback  
 
 Thanks for reading and keep up the good (remote) work! 
+
+{{% subscribe-form %}}

@@ -68,4 +68,4 @@ I'm excited to dive into these technologies during the upcoming weeks and months
 
 Stay tuned for another blog post, perhaps more about the tech aspects of building an e-commerce store. Watch this space for the next update :-)
 
-#blog #emmy #career
+{{% subscribe-form %}}

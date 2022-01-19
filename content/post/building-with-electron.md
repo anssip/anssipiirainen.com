@@ -77,3 +77,5 @@ I have been primarily a backend developer for most of my career. I accumulated m
 I am now reasonably confident that I can build anything from start to finish. I could do it entirely on my own if I wanted to  :-) I am convinced that I can come up with the backend, the frontend, the website, and marketing material. This realisation makes me think of the next idea for a startup I should bootstrap. Meanwhile, before the big idea emerges, I will continue working on this Dispatch project.
 
 In our summer cottage in Lapinsaari, Savonlinna, Finland
+
+{{% subscribe-form %}}
