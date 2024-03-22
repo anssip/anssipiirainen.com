@@ -35,9 +35,9 @@ keywords = ["programming"]
 
 # Building an Electron application
 
-{{% amp-image alt="My iMac" src="/images/building-electron.jpg" width="600" height="450" %}}
+{{< amp-image alt="My iMac" src="/images/building-electron.jpg" width="600" height="450" >}}
  
-{{% post-meta %}}
+{{< post-meta >}}
 
 ## Intro
 
@@ -78,4 +78,4 @@ I am now reasonably confident that I can build anything from start to finish. I 
 
 In our summer cottage in Lapinsaari, Savonlinna, Finland
 
-{{% subscribe-form %}}
+{{< subscribe-form >}}

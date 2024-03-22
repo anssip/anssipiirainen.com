@@ -28,7 +28,9 @@ keywords = ["programming", "igaming"]
     filename = "sitemap.xml"
 +++
 
-{{% amp-image alt="Soccer game" src="/images/soccer.png" %}}
+{{< amp-image alt="Soccer game" src="/images/soccer.png" >}}
+
+{{< post-meta >}}
 
 # Open Source Sports Betting
 
@@ -74,4 +76,4 @@ available for freelance opportunities to bring this project to fruition. Togethe
 In any case I see this as a great learning experience and a way to perhaps disrupt the iGaming industry a bit. I don't 
 think this industry has seen too much open source projects so far 😊
 
-{{% subscribe-form %}}
+{{< subscribe-form >}}

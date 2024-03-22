@@ -36,7 +36,7 @@ keywords = ["blogging", "programming"]
 
 # The new anssipiirainen.com
 
-{{% post-meta %}}
+{{< post-meta >}}
 
 A week ago, I decided to set up a new website for this blog. Somehow I always have the urge to learn something new. Just programming with the same old tools and languages becomes boring, and something new is needed to spice up my life.
 
@@ -64,4 +64,4 @@ I can now write the blog posts without leaving my favorite text editor, Visual S
 
 I just found out that there is a Grammarly plugin for Visual Studio Code. I use Grammarly for checking the spelling grammar of my posts. The VSCode plugin seems a bit flaky at the moment, but it could be a great addition to my workflow.
 
-{{% subscribe-form %}}
+{{< subscribe-form >}}

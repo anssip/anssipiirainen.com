@@ -30,9 +30,9 @@ keywords = ["linux"]
 
 # How to use country-specific keyboards with Linux
 
-{{% amp-image alt="Knowledge and keyboards mean power" src="/images/sergi-kabrera-keyboard.jpg" width="700" height="450" %}}
+{{< amp-image alt="Knowledge and keyboards mean power" src="/images/sergi-kabrera-keyboard.jpg" width="700" height="450" >}}
 
-{{% post-meta %}}
+{{< post-meta >}}
 
 I recently switched to using Linux in my desktop computer that I use in my daily work. Getting the keyboard to work correctly was probably the thing that took me the longest time to get right.
 
@@ -97,7 +97,7 @@ The mappings you will need for some other country-specific or regional layout wi
 
 I am using `autokey-qt` which is a GUI tool that I use to enter the scripts I listed above. There is also a GTK version called `autokey-gtk` available for Gnome and other GTK based environments. One script is capable of handling only one character, and therefore you will need to have a separate script for each of them. You can record a hotkey shortcut for each of the scripts. In the screenshot below, you can see my `at.py` script, which I have mapped to hotkey `<alt>+2`.
 
-{{% amp-image alt="Knowledge is power" src="/images/autokey.jpg" width="700" height="450" %}}
+{{< amp-image alt="Knowledge is power" src="/images/autokey.jpg" width="700" height="450" >}}
 
 As you can see, the script sends two different keys in sequence:
 
@@ -108,4 +108,4 @@ As you can see, the script sends two different keys in sequence:
 
 To finish the setup, we need to have Autokey starting automatically. To do so, I went to System Preferences / Autostart, and added `/usr/local/bin/autokey-qt` as a program that gets started automatically when the KDE desktop starts.
 
-{{% subscribe-form %}}
+{{< subscribe-form >}}

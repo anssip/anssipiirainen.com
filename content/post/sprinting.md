@@ -28,11 +28,11 @@ keywords = ["programming", "process"]
     filename = "sitemap.xml"
 +++
 
-{{% amp-image alt="Sprinters on track" src="/images/sprint.jpg" %}}
+{{< amp-image alt="Sprinters on track" src="/images/sprint.jpg" >}}
 
 # To Sprint or not to Sprint?
-
-{{% post-meta %}}
+    
+{{< post-meta >}}
 
 Here is a lesson I learned recently: Scrum sprints are excellent if you want to squeeze the maximum performance from your team. Scrum also helps to gain sharp focus on the most important things that you should finish first.
 
@@ -67,4 +67,4 @@ However, I think pushing your team to its absolute maximum performance cannot be
 
 Here is a great [comparison of Scrum vs Kanban from the Scrum Alliance](https://resources.scrumalliance.org/Article/scrum-vs-kanban).
 
-{{% subscribe-form %}}
+{{< subscribe-form >}}

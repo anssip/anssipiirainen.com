@@ -28,11 +28,11 @@ keywords = ["emmy", "work", "career"]
     filename = "sitemap.xml"
 +++
 
-{{% amp-image alt="Emmy logo" src="/images/emmy-logo.png" %}}
+{{< amp-image alt="Emmy logo" src="/images/emmy-logo.png" >}}
 
 # Joining Emmy Clothing Company
 
-{{% post-meta %}}
+{{< post-meta >}}
 
 After four years of working as a freelance developer and a consultant, I joined a circular economy startup called Emmy. 
 
@@ -68,4 +68,4 @@ I'm excited to dive into these technologies during the upcoming weeks and months
 
 Stay tuned for another blog post, perhaps more about the tech aspects of building an e-commerce store. Watch this space for the next update :-)
 
-{{% subscribe-form %}}
+{{< subscribe-form >}}

@@ -1,2 +1,2 @@
 #/ bin/sh
-hugo deploy --maxDeletes -1 --invalidateCDN --verbose
+hugo deploy --maxDeletes -1 --invalidateCDN --logLevel info

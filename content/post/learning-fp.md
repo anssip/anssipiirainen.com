@@ -35,9 +35,9 @@ keywords = ["programming"]
 
 # Why you should learn Functional Programming
 
-{{% amp-image alt="My iMac" src="/images/carpenting.jpg" width="600" height="450" %}}
+{{< amp-image alt="My iMac" src="/images/carpenting.jpg" width="600" height="450" >}}
  
-{{% post-meta %}}
+{{< post-meta >}}
 
 ## Introduction
 
@@ -99,4 +99,4 @@ Mastering FP takes time. I'm at the beginning of my journey, and my journey so f
 
 I think it's essential always to study and learn more. In this profession, it's a must. If you stop learning and improving, more ambitious programmers overshadow and take over you. Eventually, you give up programming and become a Manager and, for sure, that is a scenario that every self-respecting programmer wants to avoid :-)
 
-{{% subscribe-form %}}
+{{< subscribe-form >}}

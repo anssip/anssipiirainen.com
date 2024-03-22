@@ -30,9 +30,9 @@ keywords = ["flowplayer", "work", "career"]
 
 # I'm leaving Flowplayer
 
-{{% amp-image alt="My iMac" src="/images/leavingflow.jpg" width="600" height="450" %}}
+{{< amp-image alt="My iMac" src="/images/leavingflow.jpg" width="600" height="450" >}}
  
-{{% post-meta %}}
+{{< post-meta >}}
 
 I've resigned from Flowpalyer, the company I founded back in 2007. The decision to leave was not easy to make. Flowplayer has been my number one priority for ten years, and I'm finding it difficult to let it go, but still, I think it's the right choice for me.
 
@@ -52,4 +52,4 @@ My opinion is that if you start questioning whether you should move forward, it'
 
 I've decided to continue as a freelance developer, and see where it takes me. I've already started planning my next steps in this space and will post updates here in my blog about this. Having an online presence is essential for a freelance worker, and I'm planning to post more about work-related topics in the future.
 
-{{% subscribe-form %}}
+{{< subscribe-form >}}

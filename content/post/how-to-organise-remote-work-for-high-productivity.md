@@ -42,9 +42,9 @@ keywords = ["work", "process"]
 
 # How to organise remote work for high productivity
 
-{{% amp-image alt="My iMac" src="/images/remote-work.jpg" width="600" height="450" %}}
+{{< amp-image alt="My iMac" src="/images/remote-work.jpg" width="600" height="450" >}}
  
-{{% post-meta %}}
+{{< post-meta >}}
 
 
 The popularity of remote work is on the rise, and in the past weeks, the demand has seen exponential growth.  Following are some of the non-obvious reasons for using remote workers and remote teams:   
@@ -125,4 +125,4 @@ To succeed with distributed teams, the top things to prioritise are:
 
 Thanks for reading and keep up the good (remote) work! 
 
-{{% subscribe-form %}}
+{{< subscribe-form >}}

@@ -43,9 +43,9 @@ keywords = ["programming"]
 # Functional Programming tricks for simplifying and improving code
 
 
-{{% amp-image alt="My iMac" src="/images/fp-trick.jpg" width="600" height="450" %}} 
+{{< amp-image alt="My iMac" src="/images/fp-trick.jpg" width="600" height="450" >}} 
 
-{{% post-meta %}}
+{{< post-meta >}}
 
 Functional Programming can make your code simpler. Simplicity means that the code is easier to read and understand, testable, and more maintainable.
 
@@ -231,4 +231,4 @@ With the tricks I have shown here, your code can be more compact. That is an imp
 
 There are more tricks and strategies like this. Let me know if you would like me to write a post about the other strategies!
 
-{{% subscribe-form %}}
+{{< subscribe-form >}}

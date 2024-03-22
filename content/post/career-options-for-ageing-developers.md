@@ -45,9 +45,9 @@ keywords = ["career"]
 
 # Best career options for ageing developers
 
-{{% amp-image alt="My iMac" src="/images/timeglass.jpg" width="600" height="450" %}}
+{{< amp-image alt="My iMac" src="/images/timeglass.jpg" width="600" height="450" >}}
  
-{{% post-meta %}}
+{{< post-meta >}}
 
 The half-life of a programmer is short. According to this [New York Times article from 1998](https://www.nytimes.com/1998/01/26/opinion/now-hiring-if-you-re-young.html), only 19% of programmers are still working as programmers 20 years after they started their career as a programmer. 
 
@@ -132,6 +132,6 @@ Being a programmer is great, and your career can take many shapes and forms. You
 
 Just do it and enjoy the ride!
 
-{{% amp-image alt="My iMac" src="/images/anssi.jpg" width="500" height="666" %}}
+{{< amp-image alt="My iMac" src="/images/anssi.jpg" width="500" height="666" >}}
 
-{{% subscribe-form %}}
+{{< subscribe-form >}}

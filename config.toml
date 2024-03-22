@@ -61,7 +61,7 @@ paginate = 10
     publisherLogoHeight = 60
 
 [markup]
-    defaultMarkdownHandler = "blackfriday"
+    defaultMarkdownHandler = "goldmark"
 
 [deployment]
     # By default, files are uploaded in an arbitrary order.

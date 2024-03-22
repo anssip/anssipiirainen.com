@@ -30,9 +30,9 @@ keywords = ["programming", "opinion"]
 
 # When and why to use TypeScript
 
-{{% amp-image alt="Knowledge is power" src="/images/knowledge.jpg" width="700" height="450" %}}
+{{< amp-image alt="Knowledge is power" src="/images/knowledge.jpg" width="700" height="450" >}}
 
-{{% post-meta %}}
+{{< post-meta >}}
 
 I have programmed exclusively with JavaScript for the past five years. I enjoy programming in JavaScript, and until recently, I saw no reason why I would switch away from it. I did not understand why I would compromise the speed and agility that JavaScript brings.
 
@@ -65,9 +65,9 @@ We decided to start migrating the project to use TypeScript. We identified two a
 
 We added these interfaces and proceeded to add typing to all functions that have these objects in their signatures as parameters or return values. **It’s these type declarations that make the code easier to understand.** You can immediately see from the type declarations what data the function takes in. Interfaces describe the structure and typing of all complex parameters. There is no need to inspect the calling code, or the function implementation, or the unit tests, to figure out what fields these complex objects are composed of.
 
-{{% post-it type="success" title="TypeScript enables teamwork" %}}
+{{< post-it type="success" title="TypeScript enables teamwork" >}}
 A shared understanding of the code becomes _vital_ when you are working as a team. Added type information brings added understanding.
-{{% / post-it %}}
+{{< / post-it >}}
 
 ## Fewer bugs
 
@@ -123,4 +123,4 @@ There are some situations where I would not use TypeScript but would go with van
 - Quick prototypes are quick to develop with JavaScript
 - Single-use scripts (migration scripts etc.) are an excellent fit to be done with JavaScript
 
-{{% subscribe-form %}}
+{{< subscribe-form >}}

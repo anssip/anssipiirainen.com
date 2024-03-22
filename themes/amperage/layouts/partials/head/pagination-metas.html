@@ -1,4 +1,4 @@
-{{ with .Paginator }}
+{{ with and .Page.IsNode .Paginator }}
     {{ if gt .TotalPages 1 }}
         {{ if .HasPrev }}
             <link rel="prev" href="{{ .Prev.URL | absLangURL }}">

@@ -28,11 +28,11 @@ keywords = ["programming", "process"]
     filename = "sitemap.xml"
 +++
 
-{{% amp-image alt="Traffic buttons" src="/images/pushbutton-walk.jpg" %}}
+{{< amp-image alt="Traffic buttons" src="/images/pushbutton-walk.jpg" >}}
 
 # Review Environments are Awesome
 
-{{% post-meta %}}
+{{< post-meta >}}
 
 ## What is a review environment?
 
@@ -55,7 +55,7 @@ Now, there is a new kid in town, in which everything happens around pull request
 * Another developer reviews and tests the change in the review environment.
 * Once the reviewer accepts the PR, the author of the PR merges it, which then triggers the CI to build & deploy the task's changes to production.
 
-{{% amp-image alt="PR in Github" src="/images/pr-build.png" %}}
+{{< amp-image alt="PR in Github" src="/images/pr-build.png" >}}
 
 This screenshot shows a pull request in Github. There is a View deployment button that opens the app in the PR specific temporary review environment. Reviewers need to test the app in this environment before the PR author is allowed to merge it. Github allows for blocking the merge until a predefined number of reviewers have accepted the change.
 
@@ -86,4 +86,4 @@ Note that also automated testing can happen as part of the PR builds. The best p
 Many cloud hosting platforms like Heroku and Vercel offer PR based review builds and deployments out-of-the-box. Heroku calls them review apps and Vercel calls them preview environments.
 It is also reasonably straightforward to implement them using Github Actions. I recently enabled them for one React app using [AWS CDK](https://aws.amazon.com/cdk/) to deploy the app to S3 and Cloudfront. Julien Goux does a good job documenting this approach in [this dev.to article](https://dev.to/jgoux/preview-environments-per-pull-request-using-aws-cdk-and-github-actions-bfi).
 
-{{% subscribe-form %}}
+{{< subscribe-form >}}

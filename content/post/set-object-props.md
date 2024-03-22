@@ -34,13 +34,13 @@ keywords = [ "programming" ]
 
 # How to add object fields conditionally
 
-{{% post-meta %}}
+{{< post-meta >}}
 
 I often run into situations where I need to construct an object in JavaScript, and I want to set fields to this object conditionally. That could be an options object that I am passing as a parameter to some other function or API. I have only some of the field values available, and only those should be part of the parameter object.
 
 To describe the situation, let’s take a look at an example with a straightforward syntax using if statements.
 
-{{% amp-image alt="Mutation" src="/images/object-mutation.png" width="600" height="450" %}}
+{{< amp-image alt="Mutation" src="/images/object-mutation.png" width="600" height="450" >}}
 
 Here I’m mutating the object conditionally, setting fields for values that are available. I don’t like this kind of mutations, because they make the code hard to follow.
 
@@ -70,8 +70,8 @@ I like this a lot: Looks clean, does not add unnecessary fields to the object, a
 
 With the ES6 shorthand property syntax it looks even more clean:
 
-{{% amp-image alt="screenshot" src="/images/address-object.png" width="600" height="450" %}}
+{{< amp-image alt="screenshot" src="/images/address-object.png" width="600" height="450" >}}
 
 I found this trick when I was looking at some code that my ex co-developer had produced, and have used it twice since I discovered it. I hope you find it useful too.
 
-{{% subscribe-form %}}
+{{< subscribe-form >}}
