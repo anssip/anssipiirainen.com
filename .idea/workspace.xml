@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf963a7-3507-4117-96a3-d64de2edf77c" name="Changes" comment="Make header fixed to top">
+    <list default="true" id="6cf963a7-3507-4117-96a3-d64de2edf77c" name="Changes" comment="Remove amp scripts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/amperage/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/layouts/_default/baseof.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/amperage/layouts/partials/page/analytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/layouts/partials/page/analytics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/amperage/layouts/partials/page/install-sw.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/layouts/partials/page/install-sw.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/amperage/static/install-sw.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/static/install-sw.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/amperage/layouts/partials/head/pwa-metas.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/layouts/partials/head/pwa-metas.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710940831993</updated>
       <workItem from="1710940833019" duration="7035000" />
-      <workItem from="1711097556617" duration="5907000" />
+      <workItem from="1711097556617" duration="6507000" />
     </task>
     <task id="LOCAL-00001" summary="Add project module files and update .gitignore">
       <option name="closed" value="true" />
@@ -91,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711224427258</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Remove amp scripts">
+      <option name="closed" value="true" />
+      <created>1711225391980</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711225391980</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +105,7 @@
     <MESSAGE value="Add project module files and update .gitignore" />
     <MESSAGE value="Bump Hugo version&#10;&#10;- Add nix-shell config" />
     <MESSAGE value="Make header fixed to top" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make header fixed to top" />
+    <MESSAGE value="Remove amp scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove amp scripts" />
   </component>
 </project>
