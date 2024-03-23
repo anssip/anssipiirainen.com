@@ -4,36 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf963a7-3507-4117-96a3-d64de2edf77c" name="Changes" comment="Add project module files and update .gitignore">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shell.nix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/soccer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/building-with-electron.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/building-with-electron.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/career-options-for-ageing-developers.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/career-options-for-ageing-developers.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/emoji-support.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/emoji-support.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/fp-tricks-for-simple-code.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/fp-tricks-for-simple-code.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/how-to-organise-remote-work-for-high-productivity.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/how-to-organise-remote-work-for-high-productivity.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/joining-emmy.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/joining-emmy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/learning-fp.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/learning-fp.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/leavingflow.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/leavingflow.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/linux-with-scandinavian-keyboard.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/linux-with-scandinavian-keyboard.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/markdown-syntax.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/markdown-syntax.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/new-blog-site.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/new-blog-site.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/placeholder-text.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/placeholder-text.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/preview-environments.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/preview-environments.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/set-object-props.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/set-object-props.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/sports-betting.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/sports-betting.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/sprinting.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/sprinting.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/when-to-use-typescipt.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/when-to-use-typescipt.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/yet-another-test-post.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/yet-another-test-post.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy-native.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-native.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/amperage/layouts/partials/head/pagination-metas.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/layouts/partials/head/pagination-metas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/amperage/layouts/partials/post/post-meta.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/layouts/partials/post/post-meta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/amperage/layouts/partials/shortcodes/post-meta.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/layouts/partials/shortcodes/post-meta.html" afterDir="false" />
+    <list default="true" id="6cf963a7-3507-4117-96a3-d64de2edf77c" name="Changes" comment="Bump Hugo version&#10;&#10;- Add nix-shell config">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/about/contact.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/about/contact.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/amperage/assets/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/assets/theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/amperage/assets/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/assets/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/amperage/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/layouts/_default/baseof.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/amperage/layouts/partials/header/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/layouts/partials/header/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/amperage/layouts/partials/header/logo.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/layouts/partials/header/logo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710940831993</updated>
       <workItem from="1710940833019" duration="7035000" />
+      <workItem from="1711097556617" duration="5017000" />
     </task>
     <task id="LOCAL-00001" summary="Add project module files and update .gitignore">
       <option name="closed" value="true" />
@@ -97,7 +76,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711091391553</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Bump Hugo version&#10;&#10;- Add nix-shell config">
+      <option name="closed" value="true" />
+      <created>1711094112377</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711094112377</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add project module files and update .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add project module files and update .gitignore" />
+    <MESSAGE value="Bump Hugo version&#10;&#10;- Add nix-shell config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bump Hugo version&#10;&#10;- Add nix-shell config" />
   </component>
 </project>

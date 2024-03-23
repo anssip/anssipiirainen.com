@@ -4,7 +4,7 @@ draft = false
 date = "2020-04-16T10:34:44+03:00"
 publishdate = "2020-09-01T10:34:44+03:00"
 
-title = "Contact"
+title = ">contact"
 
 description = "Contact the author"
 
@@ -42,7 +42,7 @@ url = "contact.html"
     filename = "sitemap.xml"
 +++
 
-{{% amp-image alt="In lake Geneva, fall 2019" src="/images/anssi.jpg" width="224" height="300" %}}
+{{< amp-image alt="In lake Geneva, fall 2019" src="/images/anssi.jpg" width="224" height="300" >}}
 
 ## Anssi Piirainen
 

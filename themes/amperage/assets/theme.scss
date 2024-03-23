@@ -10,7 +10,6 @@ body {
   font-size: 15px;
 }
 
-.header,
 .main,
 .footer {
   grid-column: 4 / span 6;
@@ -18,42 +17,47 @@ body {
 }
 
 .header {
-  margin-top: 1em;
+  position: fixed;
+  background-color: #f1f1f1;
+  width: 100%;
+
   &__menu {
     margin: 0;
-    padding: 0;
+    padding: 0 1em;
     display: flex;
     overflow: auto;
-    justify-content: flex-start;
+    justify-content: space-between;
     border-bottom: 2px solid #aaa;
+
     a {
       font-size: 1.2em;
-      // white-space: nowrap;
       border-bottom: none;
+
       &:hover {
-        color: $main-color;
+        color: $red;
       }
     }
+
     &__logo {
       line-height: 0;
+      width: 60px;
+      height: auto;
+      margin-bottom: -15px;
+
       svg {
-        width: 75px;
-        height: 75px;
-        min-width: 75px;
-        min-height: 75px;
       }
     }
+
     &__list {
       display: flex;
-      flex-grow: 1;
-      // flex-wrap: nowrap;
       align-items: center;
       justify-content: flex-start;
+
       a {
         display: inline;
+
         :before {
           padding: 0 1em;
-          content: '|';
         }
       }
     }
@@ -61,8 +65,10 @@ body {
 }
 
 .main {
+  padding-top: 70px;
   min-width: 0;
   min-height: 80vh;
+
   .pagination {
     margin: 3em auto 2em auto;
     display: flex;
@@ -79,12 +85,15 @@ body {
 h1 {
   font-size: 3.5rem;
 }
+
 h2 {
   font-size: 2.5rem;
 }
+
 h3 {
   font-size: 2rem;
 }
+
 h4 {
   font-size: 1.5rem;
 }
@@ -93,24 +102,26 @@ a {
   color: inherit;
   text-decoration: none;
   transition: background 0.3s;
+
   &:hover {
-    border-color: $main-color;
-    color: $main-color;
+    border-color: $red;
+    color: $red;
   }
+
   border-color: #999;
   border-width: 0 0 1px 0;
   border-style: none none dotted none;
 }
 
 .button {
-  color: #ddd;
+  color: #333;
   border-color: #999;
   border-width: 0 0 1px 0;
   border-style: none none dotted none;
   background-color: inherit;
 
   &:hover {
-    color: $main-color;
+    color: $red;
   }
 }
 
@@ -130,10 +141,13 @@ blockquote {
   margin-left: 1em;
   padding: 1em;
   border-left: 5px solid #999;
+
   &:before {
     display: none;
   }
+
   margin-top: 0.5em;
+
   p {
     color: #555;
     font-size: 1.15em;
@@ -144,15 +158,18 @@ blockquote {
 .figure {
   width: 100%;
   max-width: 100%;
+
   &--with-caption {
     display: flex;
     border-top: 6px solid #333;
   }
+
   &__image {
     &--with-caption {
       min-width: 70%;
     }
   }
+
   &__caption {
     background-color: #333;
     color: white;
@@ -166,22 +183,28 @@ blockquote {
 .post-it {
   width: 100%;
   padding: 1.5em;
+
   &--tip {
     background-color: lemonchiffon;
   }
+
   &--info {
     background-color: azure;
   }
+
   &--danger {
     background-color: #ffcccb;
   }
+
   &--success {
     background-color: #d0f0c0;
   }
+
   &__title {
     font-weight: 700;
     font-size: 1.5em;
   }
+
   &__content {
     margin-top: 1em;
   }
@@ -193,25 +216,30 @@ blockquote {
   justify-content: space-between;
   padding: 1.5em;
   border: 1px solid #333;
+
   &__image {
     margin: auto;
     width: 100%;
     min-width: 250px;
     max-width: 400px;
   }
+
   &__content {
     margin-left: 2em;
     align-self: center;
     display: flex;
     flex-direction: column;
   }
+
   &__title {
     font-weight: 700;
     font-size: 1.5rem;
   }
+
   &__description {
     margin-top: 1em;
   }
+
   &__cta {
     margin-top: 1em;
   }
@@ -221,6 +249,7 @@ blockquote {
   display: flex;
   align-self: center;
   align-items: center;
+
   &__button {
     margin: 0 0.5em;
     border-radius: 50%;
@@ -232,6 +261,7 @@ blockquote {
   margin-top: 5px;
   margin-bottom: 0;
   padding: 0;
+
   li {
     display: inline;
   }
@@ -239,48 +269,60 @@ blockquote {
 
 .content {
   width: 100%;
+
   & > * {
     margin-top: 1.5em;
   }
+
   & > h1 {
     margin-top: 0.5em;
   }
+
   pre {
     overflow: auto;
     padding: 0.5em;
   }
+
   code {
     padding: 0.1em;
     font-size: 16px;
   }
+
   table {
     display: block;
     overflow-x: auto;
     border-collapse: collapse;
+
     td,
     th {
       border: 1px solid #ddd;
     }
+
     td {
       padding: 0.5em 1em;
     }
+
     th {
       padding: 1em 2em;
       background-color: #333;
       color: white;
     }
+
     tr:nth-child(even) {
       background-color: #f1f1f1;
     }
+
     tr:hover {
       background-color: #ddd;
     }
   }
+
   .highlight {
     .chroma {
       background-color: #f1f1f1;
     }
   }
+
   .post-meta {
     font-family: 'Roboto Mono', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 400;
@@ -290,13 +332,16 @@ blockquote {
     flex-wrap: wrap;
     justify-content: space-between;
     font-size: 12px;
+
     &__info,
     &__social-share {
       align-self: center;
     }
+
     border-top: 1px solid #c8caca;
     border-bottom: 1px solid #c8caca;
     padding: 1em 0 1em;
+
     a {
       // color: #ddd;
       // border-color: #999;
@@ -304,11 +349,13 @@ blockquote {
       border-style: none none dotted none;
       background-color: inherit;
       margin-right: 0.5em;
+
       &:hover {
-        color: $main-color;
+        color: $red;
       }
     }
   }
+
   .ad {
     display: flex;
     margin: 1rem auto;
@@ -318,39 +365,48 @@ blockquote {
     min-width: 320px;
     min-height: 320px;
     border: 1px solid #333;
+
     &__fallback {
       display: flex;
       align-items: center;
+
       p {
         margin: auto;
       }
     }
   }
+
   .author {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #f1f1f1;
     padding: 1.5rem;
+
     & > *:not(:first-child) {
       margin-top: 1rem;
     }
+
     &__name {
       font-weight: 700;
       font-size: 1.5em;
     }
+
     &__image {
       border-radius: 100px;
     }
+
     &__bio,
     &__cta {
       text-align: center;
     }
+
     &__cta {
       font-size: 1.25em;
     }
   }
 }
+
 h1,
 h2,
 h3,
@@ -389,10 +445,12 @@ h2 {
       margin-top: 2.5em;
     }
   }
+
   & > h2,
   p {
     margin-top: 1.25em;
   }
+
   .more {
     margin-top: 0.5em;
   }
@@ -403,7 +461,6 @@ h2 {
     grid-gap: 0;
   }
   .main,
-  .header,
   .footer {
     grid-column: 2 / span 10;
   }
@@ -413,9 +470,10 @@ h2 {
   }
   .header {
     margin: 0;
+
     &__menu {
       border: none;
-      border-bottom: 2px solid #aaa;
+      border-bottom: 2px solid #ccc;
     }
   }
 
@@ -451,9 +509,11 @@ h2 {
   }
   .figure {
     flex-direction: column-reverse;
+
     &--with-caption {
       border-top: none;
     }
+
     &__caption {
       position: relative;
       max-width: 100%;
@@ -461,10 +521,12 @@ h2 {
   }
   .product {
     flex-wrap: wrap;
+
     &__content {
       margin-left: unset;
       text-align: center;
     }
+
     &__title {
       margin-top: 1em;
     }
@@ -479,6 +541,7 @@ h2 {
 #dotcom:before {
   content: 'anssipiirainen.com';
 }
+
 @media (max-width: 400px) {
   #dotcom:before {
     content: 'anssi piirainen.com';
@@ -491,9 +554,11 @@ h2 {
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+
         a {
           padding-left: 1em;
           display: inline;
+
           :before {
             content: none;
           }
@@ -545,7 +610,7 @@ button[type="submit"] {
   margin-top: 1em;
   padding: 10px;
   border: 1px solid rgba(202, 200, 200, 0.199);
-  background-color:#2e0edf;
+  background-color: #2e0edf;
   color: white;
   border-radius: 5px;
   font: inherit;
