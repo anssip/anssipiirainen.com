@@ -1,17 +1,12 @@
-{{ if isset $.Site.Params "googleanalytics" }}
-<amp-analytics type="googleanalytics" data-credentials="include">
-  <script type="application/json">
-      {
-        "vars": {
-          "account": "{{ $.Site.Params.googleAnalytics }}"
-        },
-        "triggers": {
-          "trackPageview": {
-            "on": "visible",
-            "request": "pageview"
-          }
-        }
-      }
-    </script>
-</amp-analytics>
-{{ end }}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LMZ6XGCWZW"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-LMZ6XGCWZW');
+</script>

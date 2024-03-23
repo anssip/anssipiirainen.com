@@ -33,10 +33,7 @@ paginate = 10
     themeColor = "#333" # Theme color displayed on mobile browsers
 
     # Default AMP components for the whole site
-    ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker"]
-
-    # Google Analytics code
-    googleAnalytics = "UA-164238452-1"
+#    ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker"]
 
     # Adsense publisher code
     # adsensePublisher = "ca-pub-123456789"

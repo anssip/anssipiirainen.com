@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf963a7-3507-4117-96a3-d64de2edf77c" name="Changes" comment="Bump Hugo version&#10;&#10;- Add nix-shell config">
+    <list default="true" id="6cf963a7-3507-4117-96a3-d64de2edf77c" name="Changes" comment="Make header fixed to top">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/about/contact.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/about/contact.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/amperage/assets/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/assets/theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/amperage/assets/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/assets/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/amperage/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/layouts/_default/baseof.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/amperage/layouts/partials/header/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/layouts/partials/header/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/amperage/layouts/partials/header/logo.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/layouts/partials/header/logo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/amperage/layouts/partials/page/analytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/layouts/partials/page/analytics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/amperage/layouts/partials/page/install-sw.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/layouts/partials/page/install-sw.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/amperage/static/install-sw.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amperage/static/install-sw.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710940831993</updated>
       <workItem from="1710940833019" duration="7035000" />
-      <workItem from="1711097556617" duration="5017000" />
+      <workItem from="1711097556617" duration="5907000" />
     </task>
     <task id="LOCAL-00001" summary="Add project module files and update .gitignore">
       <option name="closed" value="true" />
@@ -84,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711094112377</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Make header fixed to top">
+      <option name="closed" value="true" />
+      <created>1711224427258</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711224427258</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +100,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add project module files and update .gitignore" />
     <MESSAGE value="Bump Hugo version&#10;&#10;- Add nix-shell config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bump Hugo version&#10;&#10;- Add nix-shell config" />
+    <MESSAGE value="Make header fixed to top" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make header fixed to top" />
   </component>
 </project>
